@@ -1,0 +1,382 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		A47AC2222991E5B800C0327F /* Mensagem.swift in Sources */ = {isa = PBXBuildFile; fileRef = A47AC2212991E5B800C0327F /* Mensagem.swift */; };
+		A47AC2242991E77200C0327F /* MensagemService.swift in Sources */ = {isa = PBXBuildFile; fileRef = A47AC2232991E77200C0327F /* MensagemService.swift */; };
+		A47AC2262991EA6700C0327F /* MensagemView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A47AC2252991EA6700C0327F /* MensagemView.swift */; };
+		A4ADB5FC29AD2D09005BD418 /* MainView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A4ADB5FB29AD2D09005BD418 /* MainView.swift */; };
+		A4ADB5FE29AD2D49005BD418 /* VideosView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A4ADB5FD29AD2D49005BD418 /* VideosView.swift */; };
+		A4ADB60029AD2D7A005BD418 /* NewsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A4ADB5FF29AD2D7A005BD418 /* NewsView.swift */; };
+		A4ADB60229AD3FCF005BD418 /* LoginView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A4ADB60129AD3FCF005BD418 /* LoginView.swift */; };
+		A4B4F309298831FE00D2E957 /* COXAnautasApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = A4B4F308298831FE00D2E957 /* COXAnautasApp.swift */; };
+		A4B4F30B298831FE00D2E957 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A4B4F30A298831FE00D2E957 /* ContentView.swift */; };
+		A4B4F30D2988320000D2E957 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A4B4F30C2988320000D2E957 /* Assets.xcassets */; };
+		A4B4F3102988320000D2E957 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A4B4F30F2988320000D2E957 /* Preview Assets.xcassets */; };
+		A4EE5BFE298896E400E7FF02 /* VideoView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A4EE5BFD298896E400E7FF02 /* VideoView.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		A47AC2212991E5B800C0327F /* Mensagem.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Mensagem.swift; sourceTree = "<group>"; };
+		A47AC2232991E77200C0327F /* MensagemService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MensagemService.swift; sourceTree = "<group>"; };
+		A47AC2252991EA6700C0327F /* MensagemView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MensagemView.swift; sourceTree = "<group>"; };
+		A4ADB5FB29AD2D09005BD418 /* MainView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainView.swift; sourceTree = "<group>"; };
+		A4ADB5FD29AD2D49005BD418 /* VideosView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VideosView.swift; sourceTree = "<group>"; };
+		A4ADB5FF29AD2D7A005BD418 /* NewsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NewsView.swift; sourceTree = "<group>"; };
+		A4ADB60129AD3FCF005BD418 /* LoginView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginView.swift; sourceTree = "<group>"; };
+		A4B4F305298831FE00D2E957 /* COXAnautas.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = COXAnautas.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		A4B4F308298831FE00D2E957 /* COXAnautasApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = COXAnautasApp.swift; sourceTree = "<group>"; };
+		A4B4F30A298831FE00D2E957 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		A4B4F30C2988320000D2E957 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		A4B4F30F2988320000D2E957 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		A4EE5BFD298896E400E7FF02 /* VideoView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VideoView.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		A4B4F302298831FE00D2E957 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		A4B4F2FC298831FE00D2E957 = {
+			isa = PBXGroup;
+			children = (
+				A4B4F307298831FE00D2E957 /* COXAnautas */,
+				A4B4F306298831FE00D2E957 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		A4B4F306298831FE00D2E957 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				A4B4F305298831FE00D2E957 /* COXAnautas.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		A4B4F307298831FE00D2E957 /* COXAnautas */ = {
+			isa = PBXGroup;
+			children = (
+				A4B4F308298831FE00D2E957 /* COXAnautasApp.swift */,
+				A4B4F30A298831FE00D2E957 /* ContentView.swift */,
+				A4ADB5FB29AD2D09005BD418 /* MainView.swift */,
+				A4B4F30C2988320000D2E957 /* Assets.xcassets */,
+				A4B4F30E2988320000D2E957 /* Preview Content */,
+				A4ADB5FD29AD2D49005BD418 /* VideosView.swift */,
+				A4EE5BFD298896E400E7FF02 /* VideoView.swift */,
+				A47AC2212991E5B800C0327F /* Mensagem.swift */,
+				A47AC2232991E77200C0327F /* MensagemService.swift */,
+				A47AC2252991EA6700C0327F /* MensagemView.swift */,
+				A4ADB5FF29AD2D7A005BD418 /* NewsView.swift */,
+				A4ADB60129AD3FCF005BD418 /* LoginView.swift */,
+			);
+			path = COXAnautas;
+			sourceTree = "<group>";
+		};
+		A4B4F30E2988320000D2E957 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				A4B4F30F2988320000D2E957 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		A4B4F304298831FE00D2E957 /* COXAnautas */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A4B4F3132988320000D2E957 /* Build configuration list for PBXNativeTarget "COXAnautas" */;
+			buildPhases = (
+				A4B4F301298831FE00D2E957 /* Sources */,
+				A4B4F302298831FE00D2E957 /* Frameworks */,
+				A4B4F303298831FE00D2E957 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = COXAnautas;
+			productName = COXAnautas;
+			productReference = A4B4F305298831FE00D2E957 /* COXAnautas.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		A4B4F2FD298831FE00D2E957 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1420;
+				LastUpgradeCheck = 1420;
+				TargetAttributes = {
+					A4B4F304298831FE00D2E957 = {
+						CreatedOnToolsVersion = 14.2;
+					};
+				};
+			};
+			buildConfigurationList = A4B4F300298831FE00D2E957 /* Build configuration list for PBXProject "COXAnautas" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = A4B4F2FC298831FE00D2E957;
+			productRefGroup = A4B4F306298831FE00D2E957 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				A4B4F304298831FE00D2E957 /* COXAnautas */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		A4B4F303298831FE00D2E957 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A4B4F3102988320000D2E957 /* Preview Assets.xcassets in Resources */,
+				A4B4F30D2988320000D2E957 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		A4B4F301298831FE00D2E957 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A4ADB5FE29AD2D49005BD418 /* VideosView.swift in Sources */,
+				A4EE5BFE298896E400E7FF02 /* VideoView.swift in Sources */,
+				A4ADB5FC29AD2D09005BD418 /* MainView.swift in Sources */,
+				A4ADB60029AD2D7A005BD418 /* NewsView.swift in Sources */,
+				A4B4F30B298831FE00D2E957 /* ContentView.swift in Sources */,
+				A47AC2222991E5B800C0327F /* Mensagem.swift in Sources */,
+				A4B4F309298831FE00D2E957 /* COXAnautasApp.swift in Sources */,
+				A47AC2242991E77200C0327F /* MensagemService.swift in Sources */,
+				A4ADB60229AD3FCF005BD418 /* LoginView.swift in Sources */,
+				A47AC2262991EA6700C0327F /* MensagemView.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		A4B4F3112988320000D2E957 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.2;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		A4B4F3122988320000D2E957 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		A4B4F3142988320000D2E957 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"COXAnautas/Preview Content\"";
+				DEVELOPMENT_TEAM = B5KGEB7E96;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = COXAnautas/Info.plist;
+				INFOPLIST_KEY_CFBundleDisplayName = COXAnautas;
+				INFOPLIST_KEY_LSApplicationCategoryType = "public.app-category.sports";
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = "UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown";
+				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = br.com.zoopdigital.COXAnautas;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		A4B4F3152988320000D2E957 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"COXAnautas/Preview Content\"";
+				DEVELOPMENT_TEAM = B5KGEB7E96;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = COXAnautas/Info.plist;
+				INFOPLIST_KEY_CFBundleDisplayName = COXAnautas;
+				INFOPLIST_KEY_LSApplicationCategoryType = "public.app-category.sports";
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = "UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown";
+				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = br.com.zoopdigital.COXAnautas;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		A4B4F300298831FE00D2E957 /* Build configuration list for PBXProject "COXAnautas" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A4B4F3112988320000D2E957 /* Debug */,
+				A4B4F3122988320000D2E957 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A4B4F3132988320000D2E957 /* Build configuration list for PBXNativeTarget "COXAnautas" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A4B4F3142988320000D2E957 /* Debug */,
+				A4B4F3152988320000D2E957 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = A4B4F2FD298831FE00D2E957 /* Project object */;
+}
